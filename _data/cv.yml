@@ -2,25 +2,19 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Giorgi Arsenadze
     - name: Date of Birth
-      value: 14th March 1879
+      value: 23rd November 1996
     - name: Languages
-      value: English, German
+      value: English, Georgian, German, Russian
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+      institution: New York University, NY, USA
+      year: 11.2019-05.2026
+      
     - title: Federal teaching diploma
       institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
       year: 1900
