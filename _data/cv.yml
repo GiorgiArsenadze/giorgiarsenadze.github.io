@@ -13,15 +13,15 @@
   contents:
     - title: Doctor of Philosophy
       institution: New York University, New York, USA
-      year: 05.2026
+      year: 11.2019 - 05.2026
       
     - title: Master of Philosophy
       institution: New York University, New York, USA
-      year: 05.2022
+      year: 11.2019 - 05.2022
 
     - title: Bachelor of Science in Physics
       institution: Free University of Tbilisi, Tbilisi, Georgia
-      year: 05.2019
+      year: 11.2015 - 05.2019
 
 
 - title: Experience
@@ -61,7 +61,7 @@
         - Designed syllabus and coursework for six different classes and met with students to instruct and improve their understanding of the topic through exercises. 
     - title: Mathematics and Physics Teacher
       institution: Vekua and Komarovi School, Tbilisi, Georgia
-      year: 1909 - 1911
+      year: 2016 - 2019
       description:
         - Created curriculum for Physics and Mathematics classes aimed for advanced students to enhance results at Olympiads. 
         - Successfully guided decades of students to award winning positions at national and international Olympiads in Physics and Mathematics. 
@@ -102,10 +102,7 @@
       items:
         - Cofounded a nonprofit organization ISGS, to foster connections among scientists and facilitate the exchange of knowledge between their fields, as well as with the general public. Our initiatives include organizing 8 mentorship programs, inviting decades of speakers to regular webinars, and conferences aimed at promoting interdisciplinary awareness..
         - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+
         
 - title: Programing Languages
   type: list
