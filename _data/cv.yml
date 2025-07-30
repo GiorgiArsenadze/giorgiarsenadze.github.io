@@ -6,86 +6,114 @@
     - name: Date of Birth
       value: 23rd November 1996
     - name: Languages
-      value: English, Georgian, German, Russian
+      value: English (Fluent), Georgian (Fluent), German (A1), Russian (A2)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: New York University, NY, USA
-      year: 11.2019-05.2026
+    - title: Doctor of Philosophy
+      institution: New York University, New York, USA
+      year: 05.2026
       
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Master of Philosophy
+      institution: New York University, New York, USA
+      year: 05.2022
+
+    - title: Bachelor of Science in Physics
+      institution: Free University of Tbilisi, Tbilisi, Georgia
+      year: 05.2019
+
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant in Computational Particle Physics and Phenomenology
+      institution: New York University, NY
+      year: 05.2021 - 05.2026
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Designed particle physics models to elucidate Dark Matter and other Cosmological Tensions.
+        - Developed particle simulations and analyzed experimental data to compare with theoretical findings.
+        - Enhanced state-of-the-art computational software, to boost precision and speed for solving cosmological equations.
+
+    - title: Research Assistant in Biophysics
+      institution: New York University, NY
+      year: 11.2019 - 05.2021
       description:
-        - Description 1.
-        - Description 2.
+        - Developed a theoretical model to explain interactions between nucleoli, within nucleus of HeLa Cell.
+        - Designed and created 3D simulations of ball particle motion to replicate experimental findings.
+        - Contributed to microscope design and modeling to enhance observation limits on intercellular organoids.
+        - Designed and implemented an automated data workflow for selecting, processing, and analyzing terabytes of cell nucleus imaging data.
+        - Invented several new analytical techniques to characterize the dynamics and physics of nucleoli in chromatin media.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Clinical Assistant Professor
+      institution: New York University, NY
+      year: 04.2023-11.2024
       description:
+        - Design curriculum and prepare syllabus and course work for General Physics I and II classes.
+        - Give lectures to decades of students. 
+        - Oversee stuff of 8 people to run laboratory and recitation sessions smoothly.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
+    - title: Teaching Assistant
+      institution: New York University, NY
+      year: 11.2019-05.2026
+      description:
+        - Teaching Classes: Dynamics, General Physics I-II, Physics III, Cosmology, The Universe, Introductory Experimental Physics I, Intermediate Experimental Physics II
+        - Designed syllabus and coursework for six different classes and met with students to instruct and improve their understanding of the topic through exercises. 
+    - title: Mathematics and Physics Teacher
+      institution: Vekua and Komarovi School, Tbilisi, Georgia
       year: 1909 - 1911
+      description:
+        - Created curriculum for Physics and Mathematics classes aimed for advanced students to enhance results at Olympiads. 
+        - Successfully guided decades of students to award winning positions at national and international Olympiads in Physics and Mathematics. 
+        - Taught Mathematics to elementary school students.
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/GiorgiArsenadze/Shaping-Dark-Photon-Spectral-Distortions">Dark Photon Spectral Distortions</a>
+      year: 2022-now
+      description: Analysis of CMB Spectral Distortion due to Dark Photons with Greens Function Method.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2024
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Outstanding Teaching Award
+        - Outstanding Graduate Student Instructor Award 
+        - JAGA Fellow
+    - year: 2019
       items:
-        - Max Planck Medal
-
-- title: Academic Interests
+        - MacCracken Fellow
+    - year: 2015
+      items:
+        - Knowledge Fund Fellow
+    - year: 2013-2015
+      items:
+        - Silver Medal on International Zhautykov Olympiad
+        - Honorable Mention twice on International Physics Olympiad
+        - 2 Gold Medals and 2 Bronze Medals on Georgian National Physics Olympiad
+        
+        
+- title: Extracurricular Activity
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: International Society of Georgian Scientists <a href="https://www.youtube.com/channel/UCfWfdvvdmCu50bEbfnyeF-Q/videos">ISGS</a>
       items:
-        - Description 1.
+        - Cofounded a nonprofit organization ISGS, to foster connections among scientists and facilitate the exchange of knowledge between their fields, as well as with the general public. Our initiatives include organizing 8 mentorship programs, inviting decades of speakers to regular webinars, and conferences aimed at promoting interdisciplinary awareness..
         - Description 2.
     - title: Topic 2.
       items:
         - Description 1.
         - Description 2.
+        
+- title: Programing Languages
+  type: list
+  contents:
+    - Python, Julia, Mathematica, MATLAB, C, C++, Java, Git.
+
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Cooking, Baking, Fishing, Hicking, Traveling, Leatherworking, Fly tying, Gardening.
