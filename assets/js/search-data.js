@@ -483,6 +483,20 @@ ninja.data = [{
           window.open("https://inspirehep.net/authors/2592059", "_blank");
         },
       },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/giorgiarsenadze", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0001-9494-2872", "_blank");
+        },
+      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
