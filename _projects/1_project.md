@@ -8,12 +8,6 @@ category: work
 related_publications: true
 math: true
 ---
-The dark photon $A'$ is a hypothetical particle that provides one of the few renormalizable portals between the Standard Model (SM) sector and the dark sector. A significant research program is underway to detect dark photons with a mass of $m_{A'} \lesssim 10^{-3}\,\mathrm{eV}$. The dark photon parameter space can be probed by terrestrial experiments, such as Cavendish–Coulomb experiments, Light-Shining-Through-Walls setups, helioscopes, and direct detection of solar-produced dark photons. 
-
-Astrophysical observations also provide constraints, including stellar energy loss mechanisms and black hole superradiance. Furthermore, due to kinetic mixing with the SM electromagnetic field, the magnetospheres of Jupiter and Earth can be used to constrain the kinetic mixing parameter of ultralight dark photons in the $10^{-16}\!-\!10^{-13}\,\mathrm{eV}$ mass range. 
-
-For a comprehensive review of dark photon constraints, see the relevant literature. However, all such searches are fundamentally limited by the decoupling of dark photons from the SM as $m_{A'} \rightarrow 0$, making their detection increasingly difficult at low masses.
-
 
 
 The dark photon is a hypothetical particle that offers one of the few possible renormalizable connections between the Standard Model of particle physics and a hidden dark sector. A significant body of research is dedicated to detecting dark photons, particularly at very low masses. These efforts include terrestrial experiments such as Cavendish–Coulomb setups, light-shining-through-wall experiments, helioscopes, and the direct detection of dark photons emitted by the Sun. The search also extends to astrophysical phenomena such as stellar energy loss and black hole superradiance. Furthermore, the electromagnetic environments of planets like Jupiter and Earth offer useful constraints on extremely light dark photons. However, these searches are fundamentally limited as the interaction between dark photons and Standard Model particles weakens dramatically when the dark photon mass approaches zero.
@@ -29,68 +23,20 @@ We show that our constraints strengthen existing limits by up to a factor of thr
 The CMB remains one of the most powerful tools for testing fundamental physics. Its extreme precision makes it a natural place to search for the subtle effects caused by particles in the hidden universe. Our work provides a self-consistent and data-driven method for probing dark photon physics, setting the stage for deeper exploration in the years ahead.
 
 
-shwvraaa Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/constraints.jpg.jpg" title="constraints" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    The figure illustrates dark photon constraints and projections derived from distortions in the cosmic microwave background (CMB) spectrum. The solid colored line represents current constraints based on the COBE-FIRAS dataset, shown at the 95% confidence level. The dashed colored line shows a future projection based on the proposed PIXIE satellite, which is expected to have sensitivity approximately 10,000 times greater than FIRAS, assuming ideal foreground removal.
+
+Each color in the plot corresponds to a specific era of CMB spectral distortion: purple represents the free-streaming era, blue the y-era, green the transition between the mu and y-eras, orange the mu-era, and red a later y-era. The dotted green lines indicate regions where uncertainties in the modeling approach—specifically in the transition era—may become important. A red dotted line highlights regions where very large distortions are expected due to high photon-to-dark-photon conversion probabilities; in these areas, the standard modeling method is no longer applicable. These distortions, although occurring deep in the thermal era, produce significant visible effects that cannot be removed by adjusting the CMB temperature baseline.
+
+For context, the figure also includes existing experimental limits and projections from a variety of sources. These include laboratory-based searches such as DarkSRF, CROWS, and Coulomb-force experiments; direct detection experiments like XENON1T; and astrophysical observations involving the Sun, Jupiter, and Earth. Gray lines indicate these external constraints, while a gray dashed line shows the projected reach of upcoming experiments like the DarkSRF Pathfinder. Recent studies based on the Planck satellite’s CMB power spectrum have also provided constraints, though these are generally weaker than those from COBE-FIRAS and are not shown here. Another study using data from Planck and unWISE surveys has reported particularly strong constraints at very low dark photon masses, which are included in the plot for comparison.
+
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
 
 {% endraw %}
