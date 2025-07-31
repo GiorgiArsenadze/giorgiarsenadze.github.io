@@ -9,7 +9,12 @@ related_publications: true
 ---
 
 
-The dark photon $A'$ is a hypothetical particle that can open one of only a few renormalizable portals between the Standard Model (SM) sector and the dark sector.
+The dark photon $A'$ is a hypothetical particle that provides one of the few renormalizable portals between the Standard Model (SM) sector and the dark sector. A significant research program is underway to detect dark photons with a mass of $m_{A'} \lesssim 10^{-3}\,\mathrm{eV}$. The dark photon parameter space can be probed by terrestrial experiments, such as Cavendish–Coulomb experiments, Light-Shining-Through-Walls setups, helioscopes, and direct detection of solar-produced dark photons. 
+
+Astrophysical observations also provide constraints, including stellar energy loss mechanisms and black hole superradiance. Furthermore, due to kinetic mixing with the SM electromagnetic field, the magnetospheres of Jupiter and Earth can be used to constrain the kinetic mixing parameter of ultralight dark photons in the $10^{-16}\!-\!10^{-13}\,\mathrm{eV}$ mass range. 
+
+For a comprehensive review of dark photon constraints, see the relevant literature. However, all such searches are fundamentally limited by the decoupling of dark photons from the SM as $m_{A'} \rightarrow 0$, making their detection increasingly difficult at low masses.
+
 
 
 Every project has a beautiful feature showcase page.
