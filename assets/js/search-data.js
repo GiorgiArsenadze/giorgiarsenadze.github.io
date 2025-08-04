@@ -433,9 +433,9 @@ ninja.data = [{
           description: "Anomalous Coarsening of Coalescing Nucleoli in Human Cells",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-cannibal-dark-matter",
+          title: 'Cannibal Dark matter',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
