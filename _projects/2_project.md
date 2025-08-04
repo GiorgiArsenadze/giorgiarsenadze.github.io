@@ -1,11 +1,10 @@
 ---
 layout: page
-title: project 2
-description: Anomalous Coarsening of Coalescing Nucleoli in Human Cells
+title: Anomalous Coarsening of Coalescing Nucleoli in Human Cells
+description: 
 img: assets/img/nuleoli_hela.jpg
 importance: 2
 category: work
-giscus_comments: true
 math: true
 ---
 
