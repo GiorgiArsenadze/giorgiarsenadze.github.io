@@ -1,81 +1,86 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Cannibal Dark matter
+description:
+img: assets/img/publication_preview/constraints.jpg
 importance: 3
 category: work
+math: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+One of the more interesting beyond-CDM models is dark matter that undergoes “cannibalistic” number-changing \$3 \rightarrow 2\$ interactions. These models are referred to as Cannibal Dark Matter (CanDM). To illustrate the phenomenology of CanDM, we use a toy model with the following Lagrangian:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+$$
+\mathcal{L}_\text{CanDM} = \frac{1}{2}(\partial_\mu \phi)(\partial^\mu \phi) - \frac{1}{2}m^2 \phi^2 - \frac{m \kappa}{3!} \phi^3 - \frac{\lambda^2}{4!} \phi^4
+$$
+
+This allows for \$2 \leftrightarrow 2\$ interactions (\$\phi\phi \leftrightarrow \phi\phi\$) governed by \$\lambda^2\$ or \$\kappa^2\$, and \$3 \leftrightarrow 2\$ interactions (\$\phi\phi\phi \leftrightarrow \phi\phi\$) governed by \$\kappa\lambda^2\$ or \$\kappa^3\$, ensuring chemical and thermal equilibrium. The specific production mechanism is unimportant for this analysis, as long as it occurs before the era relevant for CMB and large-scale structure formation, and the species is decoupled from other particles thereafter.
+
+As in earlier treatments, we parametrize the thermally averaged \$3 \rightarrow 2\$ cross-section in the nonrelativistic limit with a dimensionless coupling \$\alpha\$. Assuming temperature independence for simplicity:
+
+$$
+\langle \sigma_{3 \rightarrow 2} v^2 \rangle \approx \frac{\alpha^3}{m^5} \quad \Rightarrow \quad \Gamma_{3 \rightarrow 2} \approx \frac{\alpha^3}{m^5} n_\text{NR}^2
+$$
+
+In this bosonic toy model, the unperturbed phase-space distribution is:
+
+$$
+f_\text{NR}(p, \mu, T) \approx \frac{1}{\exp\left(\frac{\sqrt{p^2 + m^2} - \mu}{T}\right)}
+$$
+
+In the non-relativistic regime, the number density, energy density, and pressure are given by:
+
+$$
+n_\text{NR} = \frac{m^3 e^\zeta}{2\pi^2} \frac{K_2(x)}{x}
+$$
+
+$$
+\rho_\text{NR} = \frac{m^4 e^\zeta}{2\pi^2} \left( \frac{3K_2(x)}{x^2} + \frac{K_1(x)}{x} \right)
+$$
+
+$$
+P_\text{NR} = \frac{m^4 e^\zeta}{2\pi^2} \frac{K_2(x)}{x^2} = T n_\text{NR}
+$$
+
+with \$x = m/T\$ and \$\zeta = \mu/T\$.
+
+The evolution of \$\zeta\$ and \$x\$ comes from the first two moments of the Boltzmann equation:
+
+$$
+\frac{d\zeta}{d \log a} = -3\left(1 + \frac{P}{\rho}\right) - \frac{d \log(\rho e^{-\zeta})}{dx} \frac{dx}{d \log a}
+$$
+
+$$
+\frac{dx}{d \log a} = - \left( e^{-\zeta} - 1 \right) \frac{\Gamma_{3 \rightarrow 2}}{H} + \frac{3P}{\rho} \frac{d \log(\rho/nm)}{dx}
+$$
+
+Solving these gives the background evolution (as shown in Fig. 3a and 3b of the original document). This background evolution can be used to solve matter perturbation equations and examine the effects of CanDM on the matter power spectrum. Compared to CDM, CanDM suppresses the power spectrum at small scales:
+
+$$
+\delta' + (1 + w)(\theta - 3\phi') + 3H(c_s^2 - w)\delta = 0
+$$
+
+$$
+\theta' + H(1 - 3c_a^2)\theta - k^2\left( \psi + \frac{c_s^2}{1 + w} \delta - \sigma \right) = 0
+$$
+
+We implemented CanDM into the CLASS Einstein-Boltzmann solver to integrate these equations. After solving and applying existing constraints from Lyman-alpha forest and subhalo mass function data, we extract limits on CanDM parameter space. This constraint is the key result of the study.
+
+
+
+
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/constraints.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Dark photon constraints from CMB spectral distortions. Solid lines show current COBE-FIRAS bounds (95% CL); dashed lines show future PIXIE projections (assuming perfect foreground removal). Color coding represents different CMB epochs: free-streaming (purple), $y$-era (blue, red), $\mu$-era (orange), and $\mu$-$y$ transition (green). Gray regions show existing constraints from experiments like DarkSRF, XENON1T, and solar/Jupiter/Earth-based bounds. Dotted lines indicate theoretical limitations of the method.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
