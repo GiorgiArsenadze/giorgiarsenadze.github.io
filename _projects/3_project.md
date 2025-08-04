@@ -2,7 +2,7 @@
 layout: page
 title: Cannibal Dark matter
 description:
-img: assets/img/publication_preview/constraints.jpg
+img: assets/img/candm_constraint.JPG
 importance: 3
 category: work
 math: true
@@ -74,11 +74,11 @@ We implemented CanDM into the CLASS Einstein-Boltzmann solver to integrate these
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/constraints.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/candm_constraint.JPG" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Dark photon constraints from CMB spectral distortions. Solid lines show current COBE-FIRAS bounds (95% CL); dashed lines show future PIXIE projections (assuming perfect foreground removal). Color coding represents different CMB epochs: free-streaming (purple), $y$-era (blue, red), $\mu$-era (orange), and $\mu$-$y$ transition (green). Gray regions show existing constraints from experiments like DarkSRF, XENON1T, and solar/Jupiter/Earth-based bounds. Dotted lines indicate theoretical limitations of the method.
+    Shaded regions show excluded parameter space based on structure formation bounds. The blue and green areas represent updated constraints from the Lyman-𝛼 forest and the subhalo mass function (SHMF). These improve upon earlier bounds (purple region). The red region is excluded by galaxy cluster observations requiring $\sigma/m > 1,\mathrm{cm}^2/\mathrm{g}$.
 </div>
 
 
